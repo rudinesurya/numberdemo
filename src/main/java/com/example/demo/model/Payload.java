@@ -4,8 +4,8 @@ import java.util.List;
 import javax.validation.constraints.NotNull;
 
 public class Payload {
-    @NotNull
+    @NotNull(message = "Numbers may not be null")
     public List<Double> numbers;
-    @NotNull
-    public int quantifier;
+    @NotNull(message = "Quantifier may not be null")
+    public Integer quantifier;
 }
