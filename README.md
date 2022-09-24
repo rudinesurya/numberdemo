@@ -15,3 +15,10 @@
 ### Unit Tests
 - Controller Test for input validation test
 - Service Test for logic test
+
+### Scaling 
+Regarding scaling of the web server to millions of concurrent users, there could be vertical scaling and horizontal scaling.
+
+- Vertical Scaling is simply the scaling of the machine resources. eg. more Ram, Processors, etc
+- Horizontal Scaling is having more machines to distribute the traffic
+- Example: deploying in Cloud Service such as AWS using EC2 and ElasticLoadBalancer.
